@@ -77,7 +77,6 @@ resource "aws_route_table_association" "c" {
 
 
 
-
 data "aws_ami" "ubuntu" {
   most_recent = true
 
