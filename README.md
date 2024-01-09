@@ -1,11 +1,11 @@
 # terraform-aws-vpcoctober
-
+```hcl
 module "vpc" {
-    source = ""
-    version = "0.0.2"
+    source = "AliiaAbd/vpcoctober/aws"
+    version = "0.0.4"
     region = "us-east-2"
     vpc_cidr = "10.0.0.0/16"
-    vpc_name = "adilet"
+    vpc_name = "aliia"
     subnet1_cidr = "10.0.1.0/24"
     subnet2_cidr = "10.0.2.0/24"
     subnet3_cidr = "10.0.3.0/24"
@@ -13,3 +13,4 @@ module "vpc" {
     key_name = "kaizen"
     type = true
 }
+```
